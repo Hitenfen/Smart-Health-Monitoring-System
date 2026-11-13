@@ -90,8 +90,8 @@ Use `.env.example` as a reference and configure your own environment variables.
 For Windows PowerShell:
 
 ```powershell
-$env:HEALTH_DEVICE_TOKEN="your_device_token"
-$env:HEALTH_CAREGIVER_TOKEN="your_caregiver_token"
+$env:HEALTH_DEVICE_TOKEN=1234
+$env:HEALTH_CAREGIVER_TOKEN=5678
 ```
 
 Never publish actual credentials or secret tokens.
