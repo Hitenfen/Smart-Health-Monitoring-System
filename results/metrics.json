@@ -1,0 +1,102 @@
+{
+  "classifiers": [
+    {
+      "model": "Logistic Regression",
+      "precision": 0.8944954128440367,
+      "recall": 0.8986175115207373,
+      "specificity": 0.9766022380467956,
+      "f1": 0.896551724137931,
+      "roc_auc": 0.9652479243920848,
+      "tn": 960,
+      "fp": 23,
+      "fn": 22,
+      "tp": 195,
+      "infer_ms_per_sample": 0.0008145000174408779
+    },
+    {
+      "model": "Decision Tree (d=6)",
+      "precision": 0.9644670050761421,
+      "recall": 0.8755760368663594,
+      "specificity": 0.9928789420142421,
+      "f1": 0.9178743961352657,
+      "roc_auc": 0.9601262944714525,
+      "tn": 976,
+      "fp": 7,
+      "fn": 27,
+      "tp": 190,
+      "infer_ms_per_sample": 0.000576249998024044
+    },
+    {
+      "model": "SVM (RBF)",
+      "precision": 0.9897959183673469,
+      "recall": 0.8940092165898618,
+      "specificity": 0.9979654120040692,
+      "f1": 0.9394673123486683,
+      "roc_auc": 0.9719283112450835,
+      "tn": 981,
+      "fp": 2,
+      "fn": 23,
+      "tp": 194,
+      "infer_ms_per_sample": 0.037713083317309305
+    },
+    {
+      "model": "Gradient Boosting",
+      "precision": 0.97,
+      "recall": 0.8940092165898618,
+      "specificity": 0.9938962360122076,
+      "f1": 0.9304556354916067,
+      "roc_auc": 0.9749567532851096,
+      "tn": 977,
+      "fp": 6,
+      "fn": 23,
+      "tp": 194,
+      "infer_ms_per_sample": 0.0018561666608244802
+    },
+    {
+      "model": "Random Forest",
+      "precision": 0.9949238578680203,
+      "recall": 0.9032258064516129,
+      "specificity": 0.9989827060020345,
+      "f1": 0.9468599033816425,
+      "roc_auc": 0.9765623901252163,
+      "tn": 982,
+      "fp": 1,
+      "fn": 21,
+      "tp": 196,
+      "infer_ms_per_sample": 0.030850916664348915
+    },
+    {
+      "model": "Isolation Forest (unsup.)",
+      "precision": 0.7196652719665272,
+      "recall": 0.7926267281105991,
+      "specificity": 0.9318413021363174,
+      "f1": 0.7543859649122807,
+      "roc_auc": 0.9229200556933305,
+      "tn": 916,
+      "fp": 67,
+      "fn": 45,
+      "tp": 172,
+      "infer_ms_per_sample": 0.01581458331202157
+    }
+  ],
+  "hybrid": {
+    "far_static": 0.03153611393692777,
+    "far_hybrid": 0.014242115971515769,
+    "hybrid_precision": 0.9096774193548387,
+    "hybrid_recall": 0.6497695852534562,
+    "hybrid_specificity": 0.9857578840284842,
+    "hybrid_f1": 0.7580645161290323,
+    "hybrid_roc_auc": 0.969802307429059,
+    "hybrid_tn": 969,
+    "hybrid_fp": 14,
+    "hybrid_fn": 76,
+    "hybrid_tp": 141
+  },
+  "network": {
+    "expected": 17280,
+    "completeness_no_buffer": 0.9811921296296297,
+    "completeness_ring_buffer": 1.0,
+    "ring_overflow_drops": 0,
+    "still_buffered_at_end": 0
+  }
+}
